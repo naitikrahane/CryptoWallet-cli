@@ -24,7 +24,7 @@ npm install -g cli-crypto-wallet
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/cli-wallet.git
+git clone https://github.com/naitikrahane/cli-wallet.git
 cd cli-wallet
 npm install
 npm start (start)
