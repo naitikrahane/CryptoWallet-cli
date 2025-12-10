@@ -1,3 +1,8 @@
+---
+```md
+![npm](https://img.shields.io/npm/v/cli-crypto-wallet)
+![npm](https://img.shields.io/npm/dm/cli-crypto-wallet)
+
 # cli-wallet
 
 Simple non-custodial EVM CLI wallet.
@@ -7,6 +12,15 @@ Simple non-custodial EVM CLI wallet.
 - Native coin send (ETH, BNB, MATIC, etc.)
 - ERC-20 token import, balance, and send
 - QR code for receive address
+
+## 📦 NPM Package
+
+This project is published on npm as **cli-crypto-wallet**.
+
+### Install globally:
+```bash
+npm install -g cli-crypto-wallet
+
 
 ## Install
 
