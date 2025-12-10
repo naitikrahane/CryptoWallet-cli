@@ -3,7 +3,7 @@ name: Publish Package
 on:
   push:
     tags:
-      - 'v*'  # Example: v1.0.2
+      - 'v*'  # Examples: v1.0.2
 
 permissions:
   id-token: write
