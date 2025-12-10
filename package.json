@@ -1,9 +1,11 @@
 {
   "name": "cli-wallet",
   "version": "1.0.0",
-  "author": "Naitik Rahane",
   "type": "module",
   "main": "src/index.js",
+  "bin": {
+    "cli-wallet": "src/index.js"
+  },
   "scripts": {
     "start": "node src/index.js"
   },
@@ -11,6 +13,5 @@
     "ethers": "^6.0.0",
     "readline-sync": "^1.4.10",
     "qrcode-terminal": "^0.12.0"
-
   }
 }
