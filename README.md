@@ -1,6 +1,6 @@
 
 ![npm](https://img.shields.io/npm/v/cli-crypto-wallet)
-![npm](https://img.shields.io/npm/dm/cli-crypto-wallet)
+
 
 # cli-wallet
 
