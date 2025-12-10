@@ -2,6 +2,7 @@
   "name": "cli-wallet",
   "version": "1.0.0",
   "type": "module",
+  "license": "MIT"
   "main": "src/index.js",
   "bin": {
     "cli-wallet": "src/index.js"
