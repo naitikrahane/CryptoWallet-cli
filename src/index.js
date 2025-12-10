@@ -1,4 +1,4 @@
-// src/index.js
+#!/usr/bin/env node
 
 import readlineSync from "readline-sync";
 import { walletCreate } from "./walletCreate.js";
