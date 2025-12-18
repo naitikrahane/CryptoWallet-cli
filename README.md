@@ -1,39 +1,61 @@
-
 ![npm](https://img.shields.io/npm/v/cli-crypto-wallet)
 
+# cli-crypto-wallet
 
-# cli-wallet
+A simple **non-custodial EVM CLI wallet** built with Node.js.
 
-Simple non-custodial EVM CLI wallet.
+## ✨ Features
 
-- Encrypted keystore on local disk
-- Multiple RPC networks (EVM)
-- Native coin send (ETH, BNB, MATIC, etc.)
-- ERC-20 token import, balance, and send
-- QR code for receive address
+* 🔐 Encrypted keystore stored locally
+* 🌐 Supports multiple EVM-compatible networks
+* 💸 Send native coins (ETH, BNB, MATIC, etc.)
+* 🪙 Import, view balance, and send ERC-20 tokens
+* 📱 Generate QR code for receive address
+
+---
 
 ## 📦 NPM Package
 
-This project is published on npm as **cli-crypto-wallet**.
+This project is published on npm as **`cli-crypto-wallet`**.
 
-### Install globally:
+### ▶ Run without installing (recommended)
+
+```bash
+npx cli-wallet
+```
+
+### 🌍 Install globally
+
 ```bash
 npm install -g cli-crypto-wallet
+cli-wallet
+```
 
+---
 
-## Install
+## 🛠 Local Development
+
+Clone the repository and run locally:
 
 ```bash
-git clone https://github.com/naitikrahane/CryptoWallet-cli
-cd cli-wallet
+git clone https://github.com/naitikrahane/CryptoWallet-cli.git
+cd CryptoWallet-cli
 npm install
-npm start (start)
+npm start
+```
 
-**## SECURITY NOTE**
-Wallet is non-custodial
+---
 
-Private keys are never sent to any server
+## 🔐 Security Note
 
-Keystore is encrypted with password
+* This wallet is **non-custodial**
+* Private keys are encrypted and stored **only on your local machine**
+* Never share your keystore or password with anyone
 
-Still: if device has malware / keylogger, nothing is 100% safe
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational purposes only**.
+Use at your own risk. The author is not responsible for any loss of funds.
+
